@@ -3,3 +3,5 @@
 
 # Sketchboard diagram
 https://sketchboard.me/tDlLHTH9hnG#/
+![Sketchboard_diagram](https://user-images.githubusercontent.com/85176043/180077325-5410ea5b-a8d3-47ff-9fad-e1545ff187aa.jpg)
+
