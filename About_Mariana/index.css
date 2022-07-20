@@ -1,0 +1,21 @@
+img {
+  
+  width: 150px;
+  height: 150px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+.aboutMe_1 {
+  border: 2px solid black;
+  margin: 10px;
+  width: 30%;
+}
+.aboutMe_2 {
+  border: 2px solid black;
+  margin: 10px;
+  width: 60%;
+}
