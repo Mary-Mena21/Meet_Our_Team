@@ -6,7 +6,7 @@
 
 body {
   background: #4d7471;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Josefin Sans", "sans-serif";
 }
 
 .container {
@@ -79,15 +79,4 @@ h3 {
   background-color: #d67818;
   margin-top: 310px;
   position: absolute;
-}
-.circle {
-  /*This creates a 1px solid red border around your element(div) */
-  border: 10px solid red;
-
-  /* border-radius 50% will make it fully rounded. */
-  border-radius: 10%;
-  border-radius: 50%;
-  border-radius: 50%;
-  width: 200px;
-  box-sizing: content-box;
 }
