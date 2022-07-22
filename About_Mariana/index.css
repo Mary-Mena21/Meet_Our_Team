@@ -7,7 +7,6 @@
 
 body {
   background: #4d7471;
-
   font-family: "Josefin Sans", "sans-serif";
 }
 img {
@@ -44,7 +43,6 @@ img {
 }
 .aboutMe_1 {
   width: 25em;
- 
   flex-direction: column;
 }
 
@@ -85,7 +83,7 @@ img {
 }
 
 .hr {
-  margin-top: 200px;
+  margin-top: 250px;
   margin-bottom: 20px;
 }
 h1 {
