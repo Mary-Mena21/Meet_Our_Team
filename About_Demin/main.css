@@ -1,6 +1,9 @@
 html {
   background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-leaf-greenery-background_41066-1867.jpg?w=2000&t=st=1658599111~exp=1658599711~hmac=bcb077a1ec4a44b8c8143696d755a99a7a9ca8efd0a9940c83f3a9cfe8e501b4);
-  background-size: 900px 900px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 img {
   width: 150px;
