@@ -1,0 +1,43 @@
+/* About Me Danny */
+
+img {
+  
+    width: 150px;
+    height: 150px;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .aboutMe {
+    border: 1px rgb(71, 167, 143) solid;
+    margin: auto 20px;
+    height: 600px;
+    border-radius: 50px 0px;
+    background: #f2f2f2;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #8e8b8b;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+  }
+
+  .aboutMe_1 {
+    border: 2px solid black;
+    margin: 10px;
+    width: 30%;
+    flex-direction: column;
+  }
+
+  .aboutMe_2 {
+    border: 2px solid black;
+    margin: 10px;
+    width: 60%;
+    flex-direction: row;
+  }
