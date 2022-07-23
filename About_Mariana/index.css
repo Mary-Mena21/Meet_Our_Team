@@ -74,6 +74,7 @@ img {
   width: 15em;
   margin: 5px;
   padding: 5px;
+  background-color: #ddd7d7;
  
 }
 .list-1{
@@ -90,7 +91,7 @@ img {
 }
 h1 {
   font-family: "Palanquin", "Allura";
-  font-size: 40px;
+  font-size: 8vw;
   text-align: center;
   color: #d77818;
 }
@@ -103,5 +104,6 @@ h2 {
 
 .greeting {
   padding: 20px;
-  font-size: 30px;
+  font-size: 5vw;
+  
 }
