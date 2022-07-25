@@ -91,19 +91,20 @@ img {
 }
 h1 {
   font-family: "Palanquin", "Allura";
-  font-size: 2vw;
+  font-size: 25px;
   text-align: center;
   color: #d77818;
 }
 h2 {
+  margin-top: 30px;
   font-family: "Palanquin", "Allura";
-  font-size: 30px;
+  font-size: 25px;
   text-align: center;
   color: #d77818;
 }
 
 .greeting {
   padding: 20px;
-  font-size: 2vw;
+  font-size: 20px;
   
 }
