@@ -65,7 +65,7 @@ img {
   line-height: 30px;
   font-size: 25px;
 }
-.list-1 li {
+.messy,.list-1 li {
   width: 10em;
   margin: 5px;
   padding: 5px;
@@ -118,7 +118,7 @@ h2 {
 
 .button {
 }
-.button:hover {
+.messy:hover,.button:hover {
   background-color: #e59c2e;
   color: #fff;
 }
@@ -135,3 +135,9 @@ h2 {
   box-shadow:  1px 1px 1px #272121;
   transition-duration: 0.4s;
 }
+
+/* 
+background-color: #f7f6f4;
+padding: 2px;
+border-radius: 5px;
+cursor: pointer; */
