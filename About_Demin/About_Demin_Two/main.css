@@ -1,0 +1,126 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+html {
+  font-family: Gilroy;
+}
+.Title {
+  color: blanchedalmond;
+  margin-bottom: 40px;
+  margin-top: 15px;
+}
+.image {
+  height: 250px;
+  width: 250px;
+  border-radius: 100%;
+  /* object-fit: cover; */
+}
+.ProfilePic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/* .pic:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 5px 5px 15px rgb(47, 93, 51);
+} */
+.main {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/About_Demin/BG.jpg);
+  /* background-attachment: fixed;
+  background-size: cover;
+  padding-top: 50px !important; */
+}
+
+footer {
+  /* margin-top: 100px; */
+  color: blanchedalmond;
+  font-weight: bold;
+  color: rgb(52, 169, 70);
+}
+
+.pic {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  /* object-fit: cover; */
+}
+.Education {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  min-width: 1000px;
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+.BoxBody {
+  display: flex;
+  flex-direction: row;
+}
+.box {
+  border: 2px solid white;
+  border-radius: 5px;
+  width: 21.5%;
+  min-width: 250px;
+  padding: 10px;
+  margin-right: 20px;
+  /* box-shadow: 5px 5px 15px #bebebe; */
+  background-color: rgb(19, 46, 24);
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12), 0.3s;
+}
+/* .box:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 5px 5px 15px blanchedalmond;
+} */
+.BoxHeader {
+  margin-bottom: 10px;
+}
+.Children {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  min-width: 1000px;
+  padding-left: 20px;
+  margin-bottom: 50px;
+}
+
+.section {
+  border: 2px solid white;
+  border-radius: 5px;
+  width: 30%;
+  padding: 10px;
+  margin-right: 20px;
+  /* box-shadow: 5px 5px 15px #bebebe; */
+  background-color: rgb(19, 46, 24);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: 1.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12), 0.5s;
+}
+.SectionBody {
+  display: flex;
+  flex-direction: row;
+}
+.ChildHeader {
+  margin-bottom: 10px;
+}
+/* .section:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 5px 5px 15px blanchedalmond;
+} */
+.Header {
+  margin-bottom: 5px;
+  color: rgba(255, 255, 255, 0.809);
+  font-size: 20px;
+}
