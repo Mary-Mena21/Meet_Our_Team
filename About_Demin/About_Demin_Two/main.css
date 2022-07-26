@@ -5,6 +5,7 @@
 
 html {
   font-family: Gilroy;
+  color: rgb(28, 62, 8);
 }
 .Title {
   color: blanchedalmond;
@@ -30,10 +31,10 @@ html {
 } */
 .main {
   display: flex;
-  position: relative;
+  /* position: relative;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   background-image: url(/About_Demin/BG.jpg);
   /* background-attachment: fixed;
   background-size: cover;
@@ -85,8 +86,8 @@ footer {
   margin-bottom: 10px;
 }
 .Children {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   width: 50%;
   min-width: 1000px;
   padding-left: 20px;
@@ -101,15 +102,15 @@ footer {
   margin-right: 20px;
   /* box-shadow: 5px 5px 15px #bebebe; */
   background-color: rgb(19, 46, 24);
-  display: flex;
+  /* display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: column; */
   transition: 1.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12), 0.5s;
 }
 .SectionBody {
-  display: flex;
-  flex-direction: row;
+  /* display: flex;
+  flex-direction: row; */
 }
 .ChildHeader {
   margin-bottom: 10px;
