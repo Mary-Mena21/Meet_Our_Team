@@ -10,7 +10,7 @@ img {
     display:flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center;
+    align-items: left side;
     flex-wrap: wrap;
         /* border: 1px rgb(71, 167, 143) solid;
             margin: auto 20px;
@@ -29,7 +29,7 @@ img {
   /*   border:2px solid black; */
     margin:10px;
     width: 30px;
-    align-content: center;
+    align-content: left side;
     object-fit: contain;
     flex-direction: column;
 }
