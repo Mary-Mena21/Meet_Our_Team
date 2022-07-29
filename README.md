@@ -1,6 +1,5 @@
 # Meet_Our_Team
-/*![Home_Page](https://user-images.githubusercontent.com/85176043/180051054-446884ac-3d09-44c6-b8c9-079b0c00b227.jpg)*/
-https://github.com/Mary-Mena21/Meet_Our_Team/blob/main/Home_Page/Team_images/Home_Page.jpg
+![Home_Page](https://user-images.githubusercontent.com/85176043/181688398-81f1eecd-dabd-4f19-b3ea-4e7d7fdebed8.jpg)
 
 # Sketchboard diagram
 https://sketchboard.me/tDlLHTH9hnG#/
