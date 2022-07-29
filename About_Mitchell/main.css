@@ -23,7 +23,8 @@ body {
   border-radius: 25px;
   text-align: center;
   margin: 5px;
-  width: 400px;
+  width: auto;
+  height: auto;
 }
 
 img {
@@ -32,13 +33,15 @@ img {
 }
 
 .para-1 {
-margin: 5px;
+margin: 30px;
 font-size: large;
 font-weight: bold;
 }
 
 .links-1 {
   display: flex; 
+  flex-wrap: wrap;
+  flex-direction: row;
   font-weight: bold;
   justify-content: center;
 }
@@ -46,6 +49,7 @@ font-weight: bold;
 .links {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 
@@ -72,4 +76,17 @@ background: salmon;
 color: black;
 }
 
+.container_2 {
+  margin-top: 20px;
+  size: 30px;
+}
 
+.fa-linkedin {
+  color: black;
+}
+.fa-square-instagram {
+  color: black;
+}
+.fa-square-facebook {
+  color: black;
+}
