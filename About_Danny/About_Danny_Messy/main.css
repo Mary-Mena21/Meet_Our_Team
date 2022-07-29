@@ -1,0 +1,60 @@
+body {
+    background: black;
+  }
+  
+  .profile-card {
+    background: white;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-right: yellow 10px dotted;
+    border-left: blue 20px solid;
+    border-bottom: gray 50px groove;
+    border-top: ridge 20px green;
+  }
+  
+  .profile-image {
+    width: 200px;
+    height: 400px;
+  }
+  
+  h1 {
+    font-family: 'Times New Roman', serif;
+    font-size: 80px;
+  }
+  
+  .about-me-section {
+    position: relative;
+    top: 10px;
+  }
+  
+  .box {
+    position: absolute;
+    top: 200px;
+    background: yellow;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border: hotpink 30px solid;
+    position: relative;
+  }
+  
+  .ribbon {
+    text-align: right;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.25);
+  }
+
+.area {
+    text-align: left;
+    padding: 75px 20px 0px 20px;
+    font-size: medium;
+    color: white;
+  }
+  
+  .iconify:hover {
+    background-color: #21759a;
+  }
+  
+  footer {
+    text-align: center;
+    font-size: small;
+    margin: 20px;
+    color: hotpink;
+    padding-top: 170px;
+  }
