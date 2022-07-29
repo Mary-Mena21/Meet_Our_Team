@@ -152,14 +152,15 @@ h3 {
 }
 
 .NavLinks {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    list-style: none;
-    height: 60px;
-    text-decoration: none;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  height: 60px;
+  text-decoration: none;
+  align-items: center;
 }
+
 .active {
     border: 2px solid blanchedalmond;
     background-color: white;
