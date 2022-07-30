@@ -7,7 +7,7 @@ html {
   font-family: Gilroy;
 }
 .Title {
-  color: blanchedalmond;
+  color: white;
   margin-bottom: 40px;
   margin-top: 15px;
 }
@@ -22,16 +22,17 @@ html {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 20px;
 }
 .pic:hover {
   cursor: pointer;
   transform: scale(1.05);
-  box-shadow: 5px 5px 15px rgb(47, 93, 51);
+  box-shadow: 5px 5px 15px rgb(93, 154, 93);
 }
 .main {
   display: flex;
-  position: relative;
-  flex-direction: column;
+  /* position: relative;
+  flex-direction: column; */
   justify-content: center;
   align-items: center;
   background-image: url(BG.jpg);
@@ -42,8 +43,11 @@ html {
 
 footer {
   margin-top: 100px;
-  color: blanchedalmond;
-  font-weight: bold;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .pic {
@@ -66,20 +70,20 @@ footer {
   flex-direction: row;
 }
 .box {
-  border: 2px solid white;
   border-radius: 5px;
   width: 21.5%;
   min-width: 250px;
   padding: 10px;
   margin-right: 20px;
-  box-shadow: 5px 5px 15px #bebebe;
-  background-color: blanchedalmond;
+  box-shadow: 3px 3px 15px #486e5e;
+  background-color: rgb(69, 69, 69);
   transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12), 0.3s;
+  color: white;
 }
 .box:hover {
   cursor: pointer;
   transform: scale(1.05);
-  box-shadow: 5px 5px 15px blanchedalmond;
+  box-shadow: 5px 5px 15px rgb(93, 154, 93);
 }
 .BoxHeader {
   margin-bottom: 10px;
@@ -90,22 +94,18 @@ footer {
   width: 50%;
   min-width: 1000px;
   padding-left: 20px;
-  /* border: 1px solid red; */
   margin-bottom: 50px;
 }
 
 .section {
-  border: 2px solid rgb(240, 236, 236);
   border-radius: 5px;
   width: 30%;
-
   padding: 10px;
   margin-right: 20px;
-  box-shadow: 5px 5px 15px #bebebe;
-  background-color: blanchedalmond;
+  box-shadow: 3px 3px 15px #486e5e;
+  background-color: rgb(69, 69, 69);
+  color: white;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
   transition: 1.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12), 0.5s;
 }
@@ -119,10 +119,25 @@ footer {
 .section:hover {
   cursor: pointer;
   transform: scale(1.05);
-  box-shadow: 5px 5px 15px blanchedalmond;
+  box-shadow: 5px 5px 15px rgb(93, 154, 93);
 }
 .Header {
   margin-bottom: 5px;
-  color: rgba(255, 255, 255, 0.809);
+  color: rgba(173, 166, 166, 0.809);
   font-size: 20px;
+}
+.overlay {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1500px;
+  margin-bottom: 50px;
+  /* border: 2px solid rgb(126, 117, 118); */
+  border-radius: 50px;
+  background-color: rgb(31, 31, 31, 0.5);
+  padding-bottom: 40px;
+  padding-right: 100px;
+  box-shadow: 5px 10px 15px #2ca767;
 }
